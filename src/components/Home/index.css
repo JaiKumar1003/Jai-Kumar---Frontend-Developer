@@ -1,0 +1,83 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background: #00161D;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar-and-details-card {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle, #000000, #00161D);
+  width: 100%;
+  height: 100vh;
+  @media screen and (min-width: 576px) {
+    background-image: url('https://res.cloudinary.com/dojcy1a17/image/upload/v1729056646/image_4_d9vpci.png');
+    background-size: cover;
+  }
+}
+
+.home-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 200px;
+  word-break: break-word;
+  align-self: center;
+  @media screen and (min-width: 768px) {
+    font-size: 72px;
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+}
+
+.home-heading-span {
+  color: #000000;
+  background-color: #B0F9FF;
+  height: 44pxpx;
+  border-radius: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.home-desp {
+  color: #B0FAFFB2;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 250px;
+  align-self: center;
+  margin-top: 0px;
+  @media screen and (min-width: 576px) {
+    max-width: 1000px;
+  }
+}
+
+.open-button {
+  background-color: #CDFCFF;
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  width: 131px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+  outline: none;
+  @media  screen and (min-width: 576px) {
+    background-color: #0D1C1B;
+    border: 1px solid #8BF9E833;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+}
