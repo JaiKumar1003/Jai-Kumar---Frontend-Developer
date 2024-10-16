@@ -45,13 +45,3 @@ const Features = () => (
 )
 
 export default Features
-
-/*
-
-  @media screen and (min-width: 576px) {
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 90%;
-  }
-*/
