@@ -212,18 +212,18 @@
 
 .portfolio-card {
   @media screen and (min-width: 576px) {
-   width: 36%;
-   height: 30vh;
+    width: 36%;
+    height: 30vh;
   }
 }
 
 .scout-card {
   @media screen and (min-width: 576px) {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   width: 50%;
-   height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 30vh;
   }
 }
 
