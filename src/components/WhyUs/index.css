@@ -12,23 +12,29 @@
 
 .why-us-heading {
   color: #ffffff;
-  font-family: var(--fontfamilyFont1);
+  font-family: "Roboto";
   font-size: 40px;
   font-weight: 500;
   text-align: center;
-  @media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
+  .why-us-heading {
     font-size: 40px;
   }
 }
 
 .why-us-desp {
   color: #B0FAFFB2;
-  font-family: var(--fontfamilyFont1);
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   text-align: center; 
-  @media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
+  .why-us-desp {
     margin-left: 10px;
     margin-right: 10px; 
   }
@@ -37,7 +43,7 @@
 .why-us-read-more-button {
   background-color: #CDFCFF;
   color: #0B2A2D;
-  font-family: var(--fontfamilyFont1);
+  font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -60,7 +66,10 @@
   margin-top: 36px;
   padding-top: 34px;
   padding-bottom: 0px;
-  @media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
+  .why-us-cards-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -75,14 +84,17 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 30px;
-  @media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
+  .why-us-card {
     width: 46%;
   }
 }
 
 .why-us-card-heading {
   color: #ffffff;
-  font-family: var(--fontfamilyFont1);
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 500;
   text-align: left;
@@ -91,7 +103,7 @@
 
 .why-us-card-desp {
   color: #B0FAFFB2;
-  font-family: var(--fontfamilyFont1);
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
